@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="buttonNoFormat"
+        android:text="No Format"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="90dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="46dp"
+        android:onClick="buttonAlignRight"
+        android:text="Right"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="41dp"
+        android:onClick="buttonAlignCentre"
+        android:text="Centre"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="41dp"
+        android:onClick="buttonAlignLeft"
+        android:text="Left"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="59dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="14dp"
+        android:onClick="buttonItalic"
+        android:text="I"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="59dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="14dp"
+        android:onClick="buttonUnderLine"
+        android:text="U"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="306dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="343dp"
+        android:background="#63D7E6"
+        android:backgroundTint="#7AC1FA"
+        android:backgroundTintMode="src_over"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="write text"
+        android:inputType="textMultiLine"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#D50000"
+        android:textColorHighlight="#0B0A0A"
+        android:textColorHint="#D50000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="59dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="344dp"
+        android:layout_marginBottom="14dp"
+        android:onClick="buttonBold"
+        android:text="B"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="133dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="11dp"
+        android:accessibilityLiveRegion="none"
+        android:background="#3F51B5"
+        android:backgroundTint="#3F51B5"
+        android:foregroundGravity="center"
+        android:foregroundTint="#00F80000"
+        android:text="Alignment"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
