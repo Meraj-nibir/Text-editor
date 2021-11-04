@@ -1,0 +1,4 @@
+com/example/texteditor/BuildConfig.java
+ com.example.texteditor.BuildConfig
+com/example/texteditor/MainActivity.java
+ com.example.texteditor.MainActivity
