@@ -120,20 +120,6 @@
         app:layout_constraintTop_toBottomOf="@+id/button7"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="59dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="344dp"
-        android:layout_marginBottom="14dp"
-        android:onClick="buttonBold"
-        android:text="B"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:visibility="visible" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="133dp"

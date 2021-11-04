@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void buttonBold(View view){
-        Spannable spannableString = new SpannableStringBuilder(editText.getText());
-        spannableString.setSpan(new StyleSpan(Typeface.BOLD),editText.getSelectionStart(),
-                editText.getSelectionEnd(),
-                0);
-        editText.setText(spannableString);
-    }
+//    public void buttonBold(View view){
+//        Spannable spannableString = new SpannableStringBuilder(editText.getText());
+//        spannableString.setSpan(new StyleSpan(Typeface.BOLD),editText.getSelectionStart(),
+//                editText.getSelectionEnd(),
+//                0);
+//        editText.setText(spannableString);
+//    }
 
     public void buttonItalic(View view){
         Spannable spannableString = new SpannableStringBuilder(editText.getText());
